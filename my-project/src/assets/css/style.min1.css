@@ -1,0 +1,4218 @@
+@font-face {
+	font-family: MuseoSans;
+	src: url(MuseoSans-500.eot) format('embedded-opentype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: MuseoSans;
+	src: url(MuseoSans-500.ttf) format('truetype'), url(MuseoSans-500.svg#MuseoSans-500) format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "museo-sans-rounded-500";
+	src: url("https://use.typekit.net/af/7d47d7/000000000000000077359965/30/l?subset_id=2&fvd=n5&v=3") format("woff2"), url("https://use.typekit.net/af/7d47d7/000000000000000077359965/30/d?subset_id=2&fvd=n5&v=3") format("woff"), url("https://use.typekit.net/af/7d47d7/000000000000000077359965/30/a?subset_id=2&fvd=n5&v=3") format("opentype");
+	font-display: auto;
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "museo-sans-900";
+	src: url("https://use.typekit.net/af/9cf49e/00000000000000000000e807/27/l?subset_id=2&fvd=n9&v=3") format("woff2"), url("https://use.typekit.net/af/9cf49e/00000000000000000000e807/27/d?subset_id=2&fvd=n9&v=3") format("woff"), url("https://use.typekit.net/af/9cf49e/00000000000000000000e807/27/a?subset_id=2&fvd=n9&v=3") format("opentype");
+	font-display: auto;
+	font-style: normal;
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: "museo-sans-100";
+	src: url("https://use.typekit.net/af/635674/00000000000000000000e800/27/l?subset_id=2&fvd=n1&v=3") format("woff2"), url("https://use.typekit.net/af/635674/00000000000000000000e800/27/d?subset_id=2&fvd=n1&v=3") format("woff"), url("https://use.typekit.net/af/635674/00000000000000000000e800/27/a?subset_id=2&fvd=n1&v=3") format("opentype");
+	font-display: auto;
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: "museo-sans-300";
+	src: url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"), url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"), url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+	font-display: auto;
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "museo-sans-700";
+	src: url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+	font-display: auto;
+	font-style: normal;
+	font-weight: 700;
+}
+
+body {
+	font-family: MuseoSans;
+	overflow-x: hidden;
+}
+
+.muteButton_homepageMobile {
+	display: none;
+}
+
+a[href^=tel] {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body.modal-open {
+	overflow: hidden !important;
+	/* position:fixed; */
+	bottom: 0;
+	width: 100%;
+}
+
+body.popup-open {
+	overflow: hidden !important;
+	/* position:fixed; */
+	bottom: 0;
+	width: 100%;
+}
+.wrapper-home , .wrapper-home-new {
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+
+.headerHomePage {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 25px 3px 25px;
+	align-items: center;
+}
+
+.topBanner {
+	background-color: #f6f5f5;
+	/* background-image: url(../../img/Bg_medtrix.png); */
+	background-image: url(https://otterboo.sirv.com/Medtrix%20Images/home_bg.png);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	height: 81.5vh;
+	
+}
+.topBanner-new {
+	background-color: #f6f5f5;
+	/* background-image: url(../../img/Bg_medtrix.png); */
+	background-image: url(https://otterboo.sirv.com/Medtrix%20Images/home_bg.png);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	/* height: 84vh; */
+	height: calc(100vh - 130px);
+	
+}
+
+
+.leftBanner .topTxtOne {
+	text-align: center;
+	padding-top: 24vh;
+}
+
+.leftBanner .topTxtOne h2 {
+	font-size: 20px;
+	color: #000;
+	margin-bottom: 0;
+}
+
+
+#contact-btn:hover{
+	background-color:rgb(243, 74, 80);
+  }
+
+#contact-btn {
+	border: 1px solid rgba(236, 28, 36, 1);
+	padding: 11px 22px;
+	background-color: rgba(236, 28, 36, 1);
+	color: #fff;
+	font-weight: 700;
+	border-radius: 5px;
+}
+
+/* .homeTextBottom {
+	display: none;
+} */
+
+.whatsNew {
+	/* display: none; */
+	/* width: 50%; */
+	/* margin:auto; */
+	/* font-family: 'Open Sans'; */
+}
+
+.whatsNew p {
+	color: #EC1C24;
+	margin-bottom: 0.5rem;
+}
+/* .whatsNew .whatsNewLinks a {
+	color: rgba(0, 0, 0, 0.5);
+	padding-right: 10px;
+} */
+
+.leftBanner_MedEdTech {
+	margin: 14vh 0 0 2vw;
+}
+
+.leftBanner_MedEdTech p {
+	font-size: 1.1rem;
+}
+
+.whatsNew_MedEdTech {
+
+	margin: 35px 0 0 0;
+	/* font-family: 'Open Sans'; */
+}
+
+.whatsNew_MedEdTech p {
+	font-size: 1rem;
+	color: #EC1C24;
+	margin-bottom: 0.5rem;
+}
+
+.whatsNew_MedEdTech .whatsNewLinks_MedEdTech a {
+	color: rgba(0, 0, 0, 0.5);
+	padding-right: 10px;
+}
+
+.desktop-home-menu {
+	padding-top: 4vh;
+	text-align: center;
+}
+
+.desktop-main-menu {
+	float: right;
+	margin-top: 15px;
+}
+
+.desktop-home-menu li,
+.desktop-main-menu li {
+	display: inline-block;
+	padding-right: 24px;
+}
+
+.desktop-main-menu li:last-child {
+	padding-right: 0;
+}
+
+.desktop-home-menu li a,
+.desktop-main-menu li a {
+	color: #070606;
+	list-style: none;
+	text-transform: uppercase;
+	/* margin-bottom: 10px; */
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.header {
+	margin: 30px 30px;
+}
+
+#medtrix{
+	color: 363636;
+	font-weight: 700;
+	position: relative;
+}
+#power {
+	color: #D21C2D;
+	font-weight: 700;
+	position: relative;
+}
+
+.icon {
+	width: 100%;
+	height: 10px;
+	background: no-repeat #f44336b8;
+	background-position: left top;
+	-webkit-transition: width .2s;
+	position: absolute;
+	bottom: 6px;
+	left: 0;
+	opacity: .5;
+	animation: anim1 2s;
+}
+
+.icon2 {
+	width: 100%;
+	height: 10px;
+	background: no-repeat #f44336b8;
+	background-position: left top;
+	-webkit-transition: width .2s;
+	position: absolute;
+	bottom: 6px;
+	left: 0;
+	opacity: .5;
+	animation: anim1 2s;
+}
+
+@keyframes anim1 {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: 100%;
+	}
+}
+
+#container-fluid {
+	padding: 0 100px;
+}
+
+.menu span {
+	/* font-family: Lato; */
+	font-size: 20px;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.19;
+	letter-spacing: .08px;
+	text-align: center;
+	color: #000;
+	cursor: pointer;
+	padding-bottom: 5px;
+}
+
+#close-menu {
+	vertical-align: bottom;
+	font-size: 28px;
+}
+
+.menu {
+	float: right;
+	/* padding: 10px; */
+}
+
+.menu img {
+	margin-bottom: 5px;
+}
+
+.mobile-logo {
+	padding: 16px;
+}
+
+.closebtn1 {
+	display: none !important;
+}
+
+.closebtn {
+	display: block !important;
+}
+
+.headprivacy {
+	color: #ec1c24;
+}
+
+.banner {
+	background-image: url(https://otterboo.sirv.com/Medtrix%20Images/images/medtrix_new_web_page/lineBg.png);
+	background-repeat: repeat-x;
+	background-size: auto 100%;
+}
+
+.banner-intro {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.banner-intro h1 {
+	font-size: 54px;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: .27px;
+	text-align: left;
+	color: #000;
+	margin-top: 120px;
+}
+
+.banner-intro p {
+	font-size: 18px;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.22;
+	letter-spacing: 1px;
+	text-align: center;
+	color: #575756;
+	/* margin-right: 158px; */
+	margin: 0 100px 0 100px;
+}
+
+.banner-intro span {
+	position: relative;
+	color: red;
+}
+
+/* #active-state,
+#active-state1 {
+	position: relative;
+	color: rgba(236, 28, 36, 1);
+	;
+	border-bottom: 2px solid rgba(236, 28, 36, 1);
+	;
+	;
+	font-weight: 500;
+} */
+
+/* .banner-intro span::after {
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	right: 0;
+	height: .5em;
+	border-top: 8px solid #f44336b8;
+	z-index: -1;
+	opacity: .5;
+} */
+
+#medtrix-vide-icon {
+	position: absolute;
+	top: -22px;
+	left: 12px;
+	z-index: 2;
+}
+
+.medtrix-vide-text p {
+	position: absolute;
+	top: -35px;
+	right: 24px;
+	color: #fff;
+	font-size: 10px;
+	z-index: 4;
+}
+
+.video-frame {
+	padding: 15% 22%;
+}
+
+.video-rates {
+	padding: 20px 20px 20px 20px;
+	margin-top: -6px;
+}
+
+.video-button {
+	border-radius: 8px;
+	background: #000;
+	color: #fff;
+	border: 1px solid #000;
+	float: right;
+	padding: 5px 17px;
+}
+
+#video-section {
+	position: relative;
+	cursor: pointer;
+	background-color: #000;
+}
+
+#video-preload {
+	position: absolute;
+	z-index: 1;
+}
+
+.video-button a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.video-intro {
+	background-image: url(https://otterboo.sirv.com/Medtrix%20Images/images/medtrix_new_web_page/logo_icon.svg);
+	background-size: 100% 100%;
+}
+
+#intro-video {
+	width: 100%;
+}
+
+.video-footer {
+	position: relative;
+	background-color: #fff;
+}
+
+h6 {
+	color: #6c6c6c;
+}
+
+.vertical_line img {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: block;
+	margin: auto;
+	z-index: 9;
+}
+
+.vertical_line1 img {
+	padding-top: 0;
+	padding-bottom: 0;
+	display: block;
+	margin: auto;
+	z-index: 9;
+}
+
+.About-us h1,
+.services h1 {
+	font-size: 150px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: 72px;
+	text-align: center;
+	color: #575756;
+	opacity: .1;
+	font-family: Lato;
+}
+
+.dot-animation {
+	height: 116px;
+	width: 100%;
+	background-image: url(https://otterboo.sirv.com/Medtrix%20Images/images/medtrix_new_web_page/dot.png);
+	z-index: -5;
+	background-repeat: repeat;
+	position: relative;
+	top: -60px;
+}
+
+.about-heading h2 {
+	font-family: MuseoSans;
+	font-size: 38px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.32;
+	letter-spacing: .76px;
+	text-align: left;
+	color: #353638;
+}
+
+.about-heading span {
+	color: #ec1c24;
+}
+
+.about-list {
+	padding-left: 12px;
+}
+
+.about-list li {
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+}
+
+.about-list span {
+	font-family: MuseoSans;
+	font-size: 35px;
+	font-weight: 300;
+	letter-spacing: 4.5px;
+	color: #c21e2c;
+}
+
+#about-us-img {
+	width: 75%;
+	float: right;
+}
+
+.about-us-grid {
+	background-image: url(https://otterboo.sirv.com/Medtrix%20Images/images/medtrix_new_web_page/about_bg.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+
+.about-list li {
+	text-align: center;
+}
+
+.list-item {
+	margin-right: 13px;
+}
+
+.about-us-content {
+	width: 85%;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.about-description p {
+	font-size: 15px;
+}
+
+.about-description,
+.services-grid p {
+	font-size: 16px;
+	line-height: 1.63;
+	letter-spacing: .08px;
+}
+
+.about-us-grid {
+	padding-bottom: 0;
+	position: relative !important;
+	top: -48px !important;
+}
+
+.services-grids {
+	position: relative !important;
+	top: 0px !important;
+}
+
+.team-member-grid {
+	position: relative !important;
+	top: -100px !important;
+	background-image: url(https://otterboo.sirv.com/team_leaders/team-member-bg.png);
+	background-repeat: repeat-x;
+	background-size: auto 66%;
+	margin-top: 120px;
+}
+
+.members {
+	position: relative;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay-member {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #000;
+	overflow: hidden;
+	width: 94%;
+	height: 0;
+	transition: .5s ease;
+	opacity: .8;
+	margin: auto;
+}
+
+#overlay-adviser {
+	width: 100% !important;
+}
+
+.members:hover .overlay-member {
+	height: 100%;
+}
+
+.text {
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.team-header {
+	text-align: center;
+	position: relative;
+	top: -50px;
+}
+
+.team-header h1 {
+	font-size: 35px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: normal;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.team-header span {
+	color: #c21e2c;
+}
+
+.mobile-view {
+	display: none;
+}
+
+.errMsg {
+	display: none;
+	display: block;
+	color: #f44336;
+	font-size: 12px;
+	top: -20px;
+	position: relative;
+}
+
+.contact-header {
+	text-align: center;
+	position: relative;
+	z-index: 9;
+}
+
+.contact-header h1 {
+	font-size: 35px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: normal;
+	text-align: center;
+	color: #fff;
+}
+
+.contact-header span {
+	color: #c21e2c;
+}
+
+.errMsg {
+	display: none;
+}
+
+.members>img {
+	-webkit-box-shadow: 0 3px 7px -2px #635e63;
+	-moz-box-shadow: 0 3px 7px -2px #635e63;
+	box-shadow: 0 3px 7px -2px #635e63;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+	font-size: 12px !important;
+	color: #000 !important;
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+	right: 2px !important;
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+	left: 2px !important;
+}
+
+.swiper-container1 {
+	padding: 0 50px !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	border: 1px solid #fff;
+	border-radius: 50%;
+	width: 40px !important;
+	height: 40px !important;
+	color: #000;
+	box-shadow: 0 3px 7px -2px #635e63;
+	background-color: #fff;
+	font-weight: 700;
+}
+
+.team-logo-icon {
+	width: 30px;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.team-linkedin-icon {
+	width: 18px;
+	height: auto;
+}
+
+.text h3 {
+	font-family: MuseoSans;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 1.19;
+}
+
+.text h1 {
+	font-size: 30px;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.21;
+	letter-spacing: normal;
+	text-transform: uppercase;
+}
+
+.text span {
+	color: #c21e2c;
+}
+
+.team-members {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.services-content-grid1 {
+	background-image: url(https://otterboo.sirv.com/Medtrix%20Images/images/medtrix_new_web_page/services_ban1.png);
+	background-size: 100% 100%;
+}
+
+.services-content-grid0 {
+	background-image: url(https://d218mh3sadleh5.cloudfront.net/Website/Internal/corporate/images/virtualCongress.png);
+	background-size: 100% 100%;
+}
+
+.services-content-grid2 {
+	background-image: url(https://otterboo.sirv.com/Medtrix%20Images/images/medtrix_new_web_page/services_ban2.png);
+	background-size: 100% 100%;
+}
+
+.services-content-grid3 {
+	background-image: url(https://otterboo.sirv.com/Medtrix%20Images/images/medtrix_new_web_page/services_ban3.png);
+	background-size: 100% 100%;
+}
+
+.services-grid-zero {
+	padding: 5% 27% 5% 5%;
+	background-image: url(https://d218mh3sadleh5.cloudfront.net/Website/Internal/corporate/images/virtualCongress.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 63%;
+	margin-right: 37%;
+}
+
+.services-grid-zero {
+	padding: 5% 27% 5% 5%;
+	background-image: url(https://otterboo.sirv.com/Medtrix%20Images/images/medtrix_new_web_page/serv_ban2Bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 63%;
+	margin-right: 37%;
+}
+
+.services-grid-one {
+	padding: 5% 7% 5% 25%;
+	background-image: url(https://otterboo.sirv.com/Medtrix%20Images/images/medtrix_new_web_page/serv_ban1Bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 63%;
+	margin-left: 37%;
+}
+
+.services-grid-two {
+	padding: 5% 27% 5% 5%;
+	background-image: url(https://otterboo.sirv.com/Medtrix%20Images/images/medtrix_new_web_page/serv_ban2Bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 63%;
+	margin-right: 37%;
+}
+
+.services-grid-three {
+	padding: 5% 7% 5% 25%;
+	background-image: url(https://otterboo.sirv.com/Medtrix%20Images/images/medtrix_new_web_page/serv_ban3Bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 63%;
+	margin-left: 37%;
+}
+
+.services-services-grid h1 {
+	font-size: 51px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: .26px;
+}
+
+.footer {
+	background: #000;
+	color: #fff;
+}
+
+.footer-list li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 30px;
+	font-family: MuseoSans;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.footer-list li a {
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.footer-list {
+	padding: 20px 0;
+	margin-bottom: 0;
+}
+
+#footer-list-right {
+	float: right;
+}
+
+.left-list-link li {
+	cursor: pointer;
+}
+
+.left-list-link li:hover {
+	color: #c21e2c;
+}
+
+.social-icon i {
+	font-size: 30px;
+}
+
+.social-icon img {
+	width: 28px;
+	vertical-align: bottom;
+	cursor: pointer;
+}
+
+.copyright {
+	vertical-align: text-bottom;
+}
+
+.members {
+	position: relative;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .5s ease;
+	opacity: .7;
+}
+
+.members:hover .overlay {
+	height: 100%;
+}
+
+.text {
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	width: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.services-grid-one-mbl {
+	position: relative;
+	top: -65px;
+	padding: 8px 10px;
+}
+
+.services-grids-mbl {
+	position: relative !important;
+	top: 0px !important;
+}
+
+.social-icon a {
+	color: #fff;
+}
+
+.home-footer li {
+	display: inline-block;
+	list-style: none;
+}
+
+.home-footer {
+	text-align: center;
+	padding-top: 14px;
+	padding-bottom: 12px;
+}
+
+.logo-animation-home {
+	background-image: url(https://otterboo.sirv.com/Medtrix%20Images/images/medtrix_new_web_page/home_bg.png);
+	background-size: 100% 100%;
+	height: 75vh;
+}
+
+.right-logo-animation img {
+	width: 520px;
+	height: 570px;
+	position: absolute;
+	right: -140px;
+	top: -180px;
+}
+
+.flexwrap {
+	flex-wrap: inherit;
+}
+
+.nxt-logo {
+	vertical-align: text-bottom;
+	padding-right: 30px;
+}
+
+.pad0 {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+#medtrix-grid {
+	background: #efefef;
+}
+
+#nxt-grid {
+	background-image: url(https://otterboo.sirv.com/Medtrix%20Images/nxt-bg.png);
+}
+
+.nxt-desctiption p {
+	font-size: 13px;
+	font-style: normal;
+	line-height: 1.14;
+	color: #fff;
+	text-align: left;
+	padding-left: 30px;
+	margin-bottom: 4px;
+}
+
+.med-desctiption p {
+	font-size: 13px;
+	font-style: normal;
+	line-height: 1.14;
+	color: #000;
+	text-align: left;
+	padding-left: 30px;
+	margin-bottom: 4px;
+}
+
+.nxt-desctiption a {
+	color: #fff;
+}
+
+.med-desctiption a {
+	color: #000;
+}
+
+.wrapper-home {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.home-copyright {
+	font-size: 14px;
+	color: #fff;
+	background-color: #000;
+}
+
+.footerlinks {
+	float: right;
+}
+
+.footerlinks li a {
+	color: #fff;
+}
+
+.footerlinks li {
+	display: inline-block;
+	margin-left: 80px;
+	cursor: pointer;
+}
+
+.footerlinks li:hover {
+	color: #c21e2c;
+}
+
+#conlink:hover {
+	color: #c21e2c;
+}
+
+.home-copyright p,
+.home-copyright ul {
+	padding-top: 14px;
+}
+
+#medtrix-grid>ul>li:nth-child(2),
+#nxt-grid>ul>li:nth-child(2) {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-left: 1px solid gray;
+}
+
+.nxt-logo img {
+	margin-top: -16px;
+}
+
+.link-wrapper h4 {
+	color: #c21e2c;
+}
+
+.footer-list-item a:hover {
+	color: #c21e2c;
+}
+
+.home-readmore-btn {
+	margin-top: 12px;
+}
+
+.nxt-readmore-btn {
+	background: #ec1c24;
+	padding: 3px 10px;
+	border: 1px solid #ec1c24;
+	border-radius: 2px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.medcom-readmore-btn {
+	background: #ec1c24;
+	padding: 3px 10px;
+	border: 1px solid #ec1c24;
+	border-radius: 2px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.medtrixlogo {
+	/* width: 40px;
+	height: 40px; */
+	background-image: url(https://otterboo.sirv.com/Medtrix%20Images/images/logoMedtrix.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 10px;
+	z-index: 5;
+}
+
+.medtrixlogo {
+	animation-name: floating;
+	-webkit-animation-name: floating;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+}
+
+.medtrixlogo {
+	animation-duration: 4s;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(10%);
+	}
+
+	50% {
+		transform: translateY(35%);
+	}
+
+	100% {
+		transform: translateY(10%);
+	}
+}
+
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(10%);
+	}
+
+	50% {
+		-webkit-transform: translateY(35%);
+	}
+
+	100% {
+		-webkit-transform: translateY(10%);
+	}
+}
+
+.homeTextTop {
+	position: absolute;
+	top: 130px;
+	left: 60px;
+}
+
+.homeTextTop h2 {
+	font-weight: 700;
+}
+
+/* .homeTextBottom {
+	text-align: center;
+} */
+
+.topTxtOne h2 {
+	font-size: 28px;
+	font-family: MuseoSans;
+	width: 100%;
+}
+
+@-webkit-keyframes scroll {
+	0% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	100% {
+		-webkit-transform: translateX(calc(-250px * 13));
+		transform: translateX(calc(-250px * 13));
+	}
+}
+
+@keyframes scroll {
+	0% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	100% {
+		-webkit-transform: translateX(calc(-250px * 13));
+		transform: translateX(calc(-250px * 13));
+	}
+}
+
+.slider {
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	padding-top: 40px;
+}
+
+.slider::after,
+.slider::before {
+	content: "";
+	position: absolute;
+	z-index: 2;
+}
+
+.slider::after {
+	right: 0;
+	top: 0;
+	-webkit-transform: rotateZ(180deg);
+	transform: rotateZ(180deg);
+}
+
+.slider::before {
+	left: 0;
+	top: 0;
+}
+
+.slider .slide-track {
+	-webkit-animation: scroll 40s linear infinite;
+	animation: scroll 40s linear infinite;
+	display: -webkit-box;
+	display: flex;
+	width: calc(250px * 39);
+	margin-bottom: 25px;
+}
+
+.slider .slide {
+	height: 100px;
+	width: 250px;
+}
+
+.slide img {
+	width: 186px;
+	height: 42px;
+}
+
+@keyframes moveSlideshow {
+	100% {
+		transform: translateX(-66.6666%);
+	}
+}
+
+.overlay {
+	height: 100%;
+	width: 0;
+	z-index: 99;
+	right: 0;
+	overflow-x: hidden;
+	transition: .5s;
+}
+
+.overlay-content {
+	position: relative;
+	top: 4%;
+	z-index: 9;
+	text-align: center;
+	float: right;
+	margin-right: 70px;
+}
+
+.overlay-content li {
+	display: inline-block;
+}
+
+.overlay-content li a {
+	color: #070606;
+	list-style: none;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	padding-right: 50px;
+	font-size: 19px;
+	cursor: pointer;
+}
+
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 36px;
+	color: #818181;
+	display: block;
+	transition: .3s;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: -20px;
+	right: 10px;
+	font-size: 50px;
+	color: #000;
+}
+
+.contact-session {
+	width: 100%;
+	text-align: center;
+	z-index: 999;
+	overflow: hidden;
+	overflow-y: auto;
+	position: relative;
+}
+
+#contact-session {
+	padding-bottom: 250px;
+	margin-top: -130px;
+}
+
+#mapFrame {
+	position: absolute;
+	left: 0;
+}
+
+.map-head {
+	height: 400px;
+	width: 100%;
+	border: 0;
+	position: absolute;
+	z-index: 1;
+	top: -90px;
+}
+
+#conlink {
+	color: #fff;
+}
+
+.map-head {
+	color: #fff;
+}
+
+.overlayMap {
+	height: 400px;
+	width: 100%;
+	border: 0;
+	background-image: url(https://otterboo.sirv.com/Medtrix%20Images/images/medtrix_new_web_page/google_map.png);
+	position: absolute;
+	z-index: 1;
+}
+
+#popup-inner {
+	top: 210px;
+	z-index: 2;
+}
+
+.link-wrapper .modal-body {
+	height: 544px;
+	overflow-y: auto;
+}
+
+:focus {
+	outline: 0 !important;
+}
+
+.modal-open .modal {
+	overflow-y: hidden !important;
+}
+
+.modal-body::-webkit-scrollbar {
+	width: 10px;
+}
+
+.modal-body::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 10px;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+	background: #c21e2c;
+	border-radius: 10px;
+}
+
+.modal-body::-webkit-scrollbar-thumb:hover {
+	background: #b30000;
+}
+
+.modal-body::-moz-scrollbar {
+	width: 10px;
+}
+
+.modal-body::-moz-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 10px;
+}
+
+.modal-body::-moz-scrollbar-thumb {
+	background: #c21e2c;
+	border-radius: 10px;
+}
+
+.modal-body::-moz-scrollbar-thumb:hover {
+	background: #b30000;
+}
+
+body.modal-open {
+	overflow: hidden;
+}
+
+.infomail {
+	color: white !important;
+}
+
+.home-banner a:hover {
+	text-decoration: none;
+}
+
+
+
+#vertical-icon {
+	margin-bottom: 12px;
+}
+
+.medcome-menu {
+	margin-right: 100px;
+}
+
+.medcome-menu li a {
+	font-size: 18px;
+}
+
+.medcome-menu a:hover {
+	border-bottom: 2px solid #F44336;
+	color: #F44336;
+	font-weight: 700;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+
+	.desktop-menu,
+	.desktop-home-menu,
+	.team-desktop-view,
+	.portrait {
+		display: none;
+	}
+	
+	.topBanner-new , .leftBanner {
+		padding-bottom: 15px;
+		height: 60vh !important;
+	}
+	.leftBanner {
+		width: 95% !important;
+	}
+	#muteButton_homepage {
+		display: none;
+	  }
+	  .muteButton_homepageMobile img{
+			width:10vw;
+	  }
+	  .muteButton_homepageMobile {
+		display:block;
+		position:absolute;
+		right:0;
+		bottom:5%;
+	}
+
+	.social-icon {
+		margin-bottom: 20px;
+	}
+
+	#menu-icon1 {
+		display: block !important;
+	}
+
+	.mobile-logo {
+		width: 60%;
+		display: none;
+	}
+
+	.team-header h1 {
+		font-size: 30px;
+	}
+
+	.team-member-grid {
+		background-size: auto 85%;
+	}
+
+	#container-fluid {
+		padding: 0 30px;
+	}
+
+	.right-logo-animation {
+		display: none;
+	}
+
+	.med-desctiption p,
+	.nxt-desctiption p {
+		text-align: center;
+		padding-left: 0;
+	}
+
+	#medtrix-grid>ul>li:nth-child(2),
+	#nxt-grid>ul>li:nth-child(2) {
+		padding-left: 0;
+		border: 0;
+	}
+
+	.logo-animation-home {
+		background-image: none;
+	}
+
+	.leftBanner .topTxtOne h2 {
+		font-size: 16px;
+	}
+
+	.rightBanner {
+		display: none;
+	}
+
+	.leftBanner {
+		width: 80%;
+		margin: 0;
+	}
+
+	span.word {
+		font-size: 46px;
+	}
+
+	.homeTextBottom h1 {
+		text-align: left;
+		font-size: 40px;
+		margin-top: 15px;
+	}
+
+	.word {
+		left: 40px;
+		top: 192px;
+	}
+
+	.homeTextBottom {
+		top: 37vh;
+		left: 2vh;
+		margin-left: 0;
+	}
+
+	.topBanner {
+		background-image: url(https://otterboo.sirv.com/Medtrix%20Images/home_banner_mobile.png);
+		background-size: 100% 100%;
+		height: 68vh;
+	}
+
+	.About-us h1,
+	.services h1 {
+		font-size: 47px;
+		letter-spacing: 8px;
+	}
+
+	.services h1 {
+		font-size: 55px;
+		letter-spacing: 10px;
+	}
+
+	.about-us-content {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.about-list li {
+		font-size: 11px;
+	}
+
+	#about-us-img,
+	#service-grid,
+	.video-frame {
+		width: 100%;
+	}
+
+	.banner-intro p {
+		font-size: 16px;
+		margin-right: 0;
+		margin-top: 30px;
+	}
+
+	.vertical_line img {
+		padding-top: 0;
+	}
+
+	.banner-intro h1 {
+		font-size: 28px;
+		margin-top: 28px;
+	}
+
+	.banner {
+		background-size: auto 118%;
+	}
+
+	.About-us {
+		bottom: -25px !important;
+	}
+
+	.about-us-grid,
+	.services-grids {
+		position: relative !important;
+		top: 0px !important;
+	}
+
+	.services-content-grid0,
+	.services-content-grid1,
+	.services-content-grid2,
+	.services-content-grid3 {
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.video-frame {
+		padding: 30px 20px;
+	}
+
+	.about-heading h2 {
+		font-size: 30px;
+	}
+
+	.mob-hide {
+		display: none !important;
+	}
+
+	.menu {
+		padding: 22px 5px 0 5px;
+	}
+
+	#home-menu {
+		padding: 22px 20px;
+	}
+
+	.header {
+		margin: 20px 0;
+	}
+
+	#order-second {
+		order: 2;
+	}
+
+	#order-first {
+		order: 1;
+	}
+
+	.dot-animation {
+		display: none;
+	}
+
+	.services-grid-one-mbl h1 {
+		font-size: 22px;
+		margin-bottom: 34px;
+	}
+
+	.about-list {
+		padding-left: 0;
+	}
+
+	.about-list span {
+		font-size: 26px;
+	}
+
+	.list-item {
+		margin-right: 5px;
+	}
+
+	#footer-list-left,
+	#footer-list-right {
+		text-align: center;
+		margin-top: 0;
+		margin-right: 0;
+	}
+
+	.footer-list li {
+		padding: 2px 12px;
+	}
+
+	.video-button {
+		padding: 5px 12px;
+		font-size: 10px;
+	}
+
+	.video-rates {
+		padding: 20px 12px 20px 12px;
+		margin-top: -6px;
+	}
+
+	.about-us-grid {
+		background-image: none;
+		padding-bottom: 0;
+	}
+
+	#mbl-hide {
+		display: none;
+	}
+
+	.home-footer {
+		padding-left: 0;
+	}
+
+	.nxt-logo {
+		border-right: 0;
+		padding-right: 30px;
+		border-bottom: 1px solid #9e9e9e;
+	}
+
+	.home-copyright p,
+	.home-copyright ul {
+		font-size: 12px;
+		font-weight: 100;
+
+	}
+
+	.home-copyright p {
+		letter-spacing: 1.2px;
+	}
+
+	ul.footerlinks li {
+		margin-left: 0;
+		margin-right: 6px;
+	}
+
+	ul.footerlinks {
+		padding-left: 0;
+		float: none;
+	}
+
+	.home-copyright {
+		text-align: center;
+	}
+
+
+
+	.video-rates h4 {
+		font-size: 20px;
+	}
+
+	.video-rates h6 {
+		font-size: 14px;
+	}
+
+	.overlay .closebtn {
+		position: absolute;
+		right: 0;
+		font-size: 60px;
+		display: none !important;
+	}
+
+	.overlay .closebtn1 {
+		position: absolute;
+		top: 10px;
+		right: 0;
+		font-size: 20px;
+		display: block !important;
+	}
+
+	.overlay-content li {
+		display: block;
+	}
+
+	.overlay-content ul {
+		padding-left: 0;
+	}
+
+	.popup-close {
+		color: #be1e2d !important;
+	}
+
+	.WhiteBg,
+	.redBg {
+		border-radius: 10px 10px 10px 10px !important;
+	}
+
+	.overlay {
+		transition: .2s;
+		overflow-y: hidden;
+	}
+
+	.link-wrapper .modal-body {
+		height: 450px;
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+
+	.banner-intro {
+		margin-top: 0;
+	}
+
+	#nxt-logo {
+		padding-bottom: 15px;
+	}
+
+	.nxt-logo img {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	.slider .slide {
+		height: 76px;
+	}
+
+	.modal-content {
+		height: 94vh;
+	}
+
+	.services-grid-one-mbl {
+		margin-top: -65px;
+		top: 0;
+	}
+
+	.vertical_line1 {
+		margin-top: 10px;
+	}
+
+	.wrapper {
+		height: 100%;
+	}
+
+	.about-count {
+		text-align: center;
+	}
+
+	.text h3 {
+		font-size: 10px;
+	}
+
+	.text h1 {
+		font-size: 18px;
+	}
+
+	#active-state::after {
+		bottom: 6px;
+	}
+
+	.overlay-member {
+		width: 100%;
+	}
+
+	.about-us-content {
+		margin-bottom: 40px;
+	}
+
+	.wrapper-home {
+		overflow-y: scroll;
+	}
+
+	#video_mobile {
+		width: 100%;
+		height: auto;
+	}
+
+	.leftBanner_MedEdTech {
+		margin: 8vh 0 0 2vw;
+	}
+}
+
+@media (min-width:320px) and (max-width:1024px) {
+	.desktop-main-menu {
+		display: none;
+	}
+
+
+	.overlay {
+		/* height: 110vh; */
+		width: 0;
+		position: fixed;
+		z-index: 99;
+		top: 0;
+		right: 0;
+		background-color: #fff;
+		background-color: #fff;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		transition: .2s;
+		opacity: 1;
+	}
+
+	.overlay-content {
+		position: relative;
+		top: 10%;
+		width: 100%;
+		text-align: center;
+		margin-top: 30px;
+		margin: auto;
+	}
+
+	.overlay a {
+		padding: 8px;
+		text-decoration: none;
+		font-size: 36px;
+		color: #000;
+		display: block;
+		transition: .3s;
+	}
+
+	.overlay .closebtn1 {
+		position: absolute;
+		top: 20px;
+		right: 0;
+		font-size: 20px;
+		display: block !important;
+	}
+
+	.menu span {
+		font-size: 18px;
+	}
+
+	.overlay-content li a {
+		padding-right: 0;
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	.overlay-content li {
+		display: block;
+	}
+
+	.dropdown-content a {
+		margin: 0;
+	}
+
+}
+
+@media (min-width:1200px) and (max-width:2560px) {
+
+	.mobile-menu,
+	.team-mobile-view,
+	.portrait {
+		display: none;
+	}
+
+	.contactRightSide img {
+		margin-top: 50px;
+	}
+
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+	/* .leftBanner .topTxtOne {
+		margin-top: 18vh;
+		width: auto;
+	} */
+
+	.banner-intro p {
+		margin-right: 0;
+	}
+
+	.overlay-member {
+		width: 100%;
+	}
+
+	#container-fluid-team {
+		padding: 0 50px;
+	}
+
+	.team-mobile-view {
+		display: none;
+	}
+
+}
+
+@media (min-width:768px) and (max-width:900px) {
+
+	.services-grid-one,
+	.services-grid-three {
+		padding: 2% 3% 2% 20%;
+	}
+
+	.portrait {
+		display: none;
+	}
+
+	.wrapper {
+		height: 100%;
+	}
+
+	.About-us h1,
+	.services h1 {
+		font-size: 55px;
+		letter-spacing: 50px;
+	}
+
+	.services-grid-two {
+		padding: 2% 20% 2% 5%;
+	}
+
+	#container-fluid {
+		padding: 0 30px;
+	}
+
+	.banner-intro h1 {
+		margin-top: 42px;
+		font-size: 37px;
+	}
+
+	.video-frame {
+		padding: 15% 6%;
+	}
+
+	.dot-animation {
+		height: 164px;
+		top: -83px;
+		width: 114%;
+	}
+
+	.about-us-grid,
+	.services-grids {
+		top: 0px !important;
+		padding-bottom: 0;
+	}
+
+	#about-us-img,
+	.about-us-content {
+		width: 100%;
+	}
+
+	.about-heading h2 {
+		font-size: 28px;
+	}
+
+	.about-us-content {
+		margin-top: 5px;
+	}
+
+	.services-grids h1 {
+		font-size: 26px;
+	}
+
+	.services-grids p {
+		line-height: 20px;
+	}
+
+	.about-us-content {
+		margin-left: 0;
+	}
+
+	.footer-list li {
+		font-size: 13px;
+	}
+
+	.left-list-link li {
+		float: left;
+		display: block;
+		line-height: 28px;
+	}
+
+	.social-icon img {
+		margin-bottom: 10px;
+	}
+
+	#footer-list-right {
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.footer-logo {
+		margin-top: 0;
+	}
+
+	.overlay-content {
+		top: 8% !important;
+		margin-right: 10px !important;
+		float: left;
+		margin-left: 50px !important;
+	}
+
+	.overlay-content ul {
+		padding-left: 0 !important;
+	}
+
+	.overlay-content li a {
+		padding-right: 5px !important;
+		font-size: 15px !important;
+	}
+
+	.overlay .closebtn {
+		right: 0 !important;
+	}
+
+	.footerlinks li {
+		margin-left: 20px;
+	}
+
+	.home-copyright p,
+	.home-copyright ul {
+		padding-left: 0;
+		float: left;
+	}
+
+	.right-logo-animation img {
+		width: 300px;
+		height: 338px;
+		position: absolute;
+		right: 0;
+		top: -144px;
+	}
+
+	span.word {
+		font-size: 85px !important;
+	}
+
+	.word {
+		top: 252px;
+	}
+
+	.homeTextTop h2 {
+		font-size: 25px;
+	}
+
+	.topBanner {
+		height: 698px;
+		background-size: 100% auto;
+		background-image: url(https://otterboo.sirv.com/Medtrix%20Images/ipad-home-bg.png);
+		background-repeat: no-repeat;
+	}
+
+	.home-footer {
+		padding-top: 50px;
+		padding-bottom: 40px;
+		padding-left: 0;
+	}
+
+	.about-us-grid {
+		background-image: url(https://otterboo.sirv.com/Medtrix%20Images/images/medtrix_new_web_page/about_bg_ipad.png);
+	}
+
+	.menu span {
+		font-size: 16px;
+	}
+
+	.banner-intro {
+		margin-top: 100px;
+	}
+
+	.contactLeftSide .user-box label {
+		font-size: 12px !important;
+	}
+
+	.homeTextTop {
+		top: 240px;
+	}
+
+	.rightBanner img {
+		top: -118px;
+		right: 0;
+	}
+}
+
+@media (min-width:1024px) and (max-width:1280px) {
+
+	.services-grid-one,
+	.services-grid-three {
+		padding: 2% 3% 2% 25%;
+	}
+
+	.services-grid-two {
+		padding: 2% 27% 2% 5%;
+	}
+
+	.overlay .closebtn {
+		top: -26px;
+	}
+
+	.homeTextTop {
+		top: 385px;
+		width: 90% !important;
+	}
+
+	.homeTextBottom {
+		width: 90% !important;
+	}
+
+	.homeTextTop h2 {
+		font-size: 40px;
+		width: 600px;
+	}
+
+	.word {
+		top: 405px;
+	}
+
+	.right-logo-animation img {
+		width: 470px;
+		height: 520px;
+		position: absolute;
+		right: 0;
+		top: -197px;
+	}
+
+	.logo-animation-home {
+		height: 918px;
+		background-size: 100% auto;
+		background-image: url(https://otterboo.sirv.com/Medtrix%20Images/ipad-home-bg.png);
+		background-repeat: no-repeat;
+	}
+
+	/* .banner-intro {
+		margin-top: 130px;
+	} */
+
+	.dot-animation {
+		width: 113%;
+	}
+
+	.medtrixLife-grid-one,
+	.medtrixLife-grid-three {
+		padding: 5% 10% 5% 6% !important;
+	}
+
+	.medtrixLife-grid-two {
+		padding: 5% 6% 5% 12% !important;
+	}
+}
+
+@media (min-width:1024px) and (max-width:1366px) {
+
+	#container-fluid {
+		padding: 0 60px;
+	}
+
+	.banner-intro h1 {
+		margin-top: 80px;
+		font-size: 45px;
+	}
+
+	.video-frame {
+		padding: 15% 8%;
+	}
+
+	.services-grid-three {
+		padding: 5% 7% 5% 22%;
+	}
+
+	.services-grid-one h1,
+	.services-grid-three h1,
+	.services-grid-two h1 {
+		font-size: 28px;
+	}
+
+	.services h1 {
+		font-size: 100px;
+		letter-spacing: 56px;
+	}
+
+	.about-us-grid,
+	.services-grids {
+		top: 0px !important;
+	}
+
+	.About-us h1 {
+		font-size: 128px;
+		letter-spacing: 31px;
+	}
+
+	#about-us-img,
+	.about-us-content {
+		width: 100%;
+	}
+
+	.footer-list li {
+		font-size: 15px;
+		font-weight: 400;
+		padding-right: 10px;
+	}
+
+	.footer-logo {
+		width: 90%;
+	}
+
+	.footerlinks li {
+		margin-left: 20px;
+	}
+
+	.home-footer {
+		padding-top: 15px;
+		padding-bottom: 10px;
+		padding-left: 0;
+	}
+	/* .whatsNew {
+		margin-left: 65px;
+	} */
+	.leftBanner .topTxtOne {
+		padding-top: 18vh !important;
+	}
+
+}
+
+@media (min-width:768px) and (max-width:2560px) {
+	#desk-hide {
+		display: none;
+	}
+
+	.overlay .closebtn {
+		top: -25px;
+	}
+
+	#container-fluid-team {
+		padding: 0 50px;
+	}
+}
+
+@media screen and (min-height:1440px) {
+	.wrapper-home {
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+}
+
+@media only screen and (width:1024px) {
+	.wrapper {
+		height: 100%;
+	}
+
+	.topBanner {
+		height: 698px;
+	}
+
+	.homeTextBottom h1 {
+		font-size: 40px;
+	}
+
+	/* .leftBanner .topTxtOne {
+		margin-top: 2vh;
+		width: 100vw;
+	} */
+
+}
+
+@media only screen and (width:1280px) {
+
+	.desktop-home-menu li a,
+	.desktop-main-menu li a {
+		font-size: 12px !important;
+	}
+
+}
+
+@media only screen and (width:1600px) {
+	.homeTextBottom {
+		top: 32vh;
+	}
+
+	.home-copyright p,
+	.home-copyright ul {
+		padding-top: 20px !important;
+		padding-bottom: 16px !important;
+	}
+
+	.overlay-member {
+		width: 89%;
+	}
+
+	.medtrixLife-grid-one,
+	.medtrixLife-grid-three {
+		padding: 5% 10% 5% 15.0% !important;
+	}
+}
+
+@media only screen and (width:1440px) {
+
+	.medtrixLife-grid-one,
+	.medtrixLife-grid-three {
+		padding: 5% 10% 5% 11.0% !important;
+	}
+}
+
+@media only screen and (width:1366px) {
+	.homeTextTop {
+		width: 65%;
+		top: 24vh;
+	}
+
+	.word {
+		top: 25vh;
+		font-size: 110px !important;
+	}
+
+	.about-us-content {
+		width: 94%;
+	}
+
+	.dot-animation {
+		width: 114%;
+	}
+
+	.contactRightSide .textContent p {
+		width: 90%;
+	}
+
+	.rightBanner img {
+		right: -165px;
+	}
+
+	.about-count,
+	.about-list {
+		text-align: center;
+	}
+
+	.list-item {
+		margin-right: 13px;
+	}
+
+	.about-list li {
+		font-size: 15px;
+	}
+
+	.about-list span {
+		font-size: 33px;
+	}
+
+	/* .topBanner {
+		height: 81vh !important;
+	} */
+	#video {
+		height: 81.5vh !important;
+	}
+
+	.home-copyright p,
+	.home-copyright ul {
+		padding-top: 5px;
+		padding-bottom: 6px;
+	}
+
+	.home-copyright {
+		padding: 0 81px !important;
+	}
+
+	.medtrixLife-grid-one,
+	.medtrixLife-grid-three {
+		padding: 5% 10% 5% 9.5% !important;
+	}
+
+	.medtrixLife-grid-two {
+		padding: 5% 13% 5% 9% !important;
+	}
+
+	.border_t {
+		width: 82% !important;
+	}
+
+	.link-wrapper .modal-body {
+		height: 520px;
+	}
+
+	.overlay-member {
+		width: 100%;
+	}
+
+	#muteButton_homepage {
+		bottom: 11vh !important;
+		right: 0.5%;
+	}
+
+
+	@keyframes floating {
+		0% {
+			transform: translateY(10%);
+		}
+
+		50% {
+			transform: translateY(25%);
+		}
+
+		100% {
+			transform: translateY(10%);
+		}
+	}
+
+	@-webkit-keyframes floating {
+		0% {
+			-webkit-transform: translateY(10%);
+		}
+
+		50% {
+			-webkit-transform: translateY(25%);
+		}
+
+		100% {
+			-webkit-transform: translateY(10%);
+		}
+	}
+}
+@media only screen and (device-width: 1205px) and (orientation: landscape){
+	.lineImg {
+		height: 99%;
+		width: 45%;
+	}
+	.cTittles {
+		gap: 7% !important;
+	}
+	.locationInfo { 
+		height: 41% !important;
+	}
+	#locationInfo1 {
+		top: 15% !important;
+		left: 31.4% !important;
+	}
+	#locationInfo2 {
+		top: 19.5% !important;
+	}
+	#locationInfo3 {
+		top: 28.3% !important;
+	}
+	#locationInfo4 {
+		top: 35.5% !important;
+	}
+	
+
+}
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait), only screen and (min-width: 753px) and (max-width: 1205px) and (orientation: portrait) {
+	.portrait {
+		display: block;
+	}
+
+	.wrapper-home,
+	#wrapper , .wrapper-home-new , .wrapper_New , .headerHomePage ,.modal{
+		display: none;
+	}
+	.modal{
+		display: none !important;
+	}
+	.modal-backdrop.fade {
+		opacity: 0 !important;
+	}
+	.portrait h6 {
+		position: absolute;
+		left: 50%;
+		font-weight: bold;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		text-transform: uppercase;
+		color: #ec1c24;
+	}
+
+	body {
+		overflow: hidden;
+		font-size: 14px;
+		background-color: #fff;
+	}
+
+	.wrapper,
+	.wrapper1 {
+		opacity: 0;
+		display: none;
+	}
+
+	.leftBanner .topTxtOne {
+		/* margin-top: 30vh; */
+		margin-left: 5vw;
+	}
+
+	/* .homeTextBottom {
+		margin-left: 5vw;
+	} */
+
+	.rightBanner {
+		position: relative;
+	}
+
+	.rightBanner img {
+		right: -174px;
+		width: 150%;
+		top: -194px;
+	}
+
+	.homeTextBottom h1 {
+		font-size: 36px;
+	}
+
+	.slider {
+		margin-bottom: -40px;
+		margin-top: 36px;
+	}
+
+	.modal-content {
+		height: 98% !important;
+	}
+
+	.link-wrapper .modal-body {
+		height: 840px;
+	}
+
+	.about-description p {
+		font-size: 12px;
+	}
+
+	.about-list span {
+		font-size: 24px;
+		letter-spacing: 3px;
+	}
+
+	.list-item {
+		margin-right: 10px;
+	}
+
+	.about-list li {
+		font-size: 13px;
+	}
+
+	.about-description {
+		font-size: 14px;
+		line-height: 1.3;
+	}
+
+	#pad0 {
+		padding-left: 0;
+	}
+
+	.about-list {
+		padding-left: 0;
+	}
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) {
+	body {
+		overflow-x: hidden !important;
+	}
+
+	.topBanner {
+		background-size: auto 100%;
+		background-image: url(https://otterboo.sirv.com/Medtrix%20Images/images/medtrix_new_web_page/ipad-home-bg.png);
+		background-repeat: no-repeat;
+
+	}
+
+	.leftBanner .topTxtOne {
+		/* margin-top: 10vh; */
+	}
+
+	.portrait {
+		display: none;
+	}
+
+	/* .homeTextBottom {
+		margin-left: 5vw;
+	} */
+
+	.rightBanner {
+		position: relative;
+	}
+
+	.rightBanner img {
+		right: -200px;
+		width: 130%;
+		top: -220px;
+	}
+
+	.homeTextBottom h1 {
+		font-size: 46px;
+	}
+
+	.wrapper {
+		overflow-x: hidden !important;
+	}
+
+	.leftBanner .topTxtOne h2 {
+		font-size: 22px;
+	}
+
+	.home-footer {
+		padding-top: 30px;
+		padding-bottom: 20px;
+		padding-left: 0;
+	}
+
+	.about-description p {
+		font-size: 15px;
+	}
+
+	.about-us-content {
+		margin-left: 0;
+	}
+
+	#container-fluid {
+		padding: 0 50px;
+	}
+
+	.about-list {
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.about-list li {
+		font-size: 12px;
+	}
+
+	.list-item {
+		margin-right: 20px;
+	}
+
+	.about-list span {
+		font-size: 35px;
+	}
+
+	.swiper-container1 {
+		padding: 0 60px !important;
+	}
+
+	.overlay .closebtn {
+		font-size: 16px;
+		top: 5px;
+	}
+
+	#home-menu {
+		display: none;
+	}
+
+	.overlay .closebtn1 {
+		padding: 20px;
+	}
+
+	.mobile-logo {
+		padding: 30px;
+	}
+
+	.home-copyright {
+		padding: 0 60px !important;
+	}
+
+	.team-member-grid {
+		background-size: auto 80%;
+	}
+
+	.text h3 {
+		font-size: 12px;
+	}
+
+	#VideoSection {
+		width: 200px !;
+	}
+
+}
+
+@media only screen and (width:1280px) {
+	.overlay-member {
+		width: 100% !important;
+	}
+
+	.right-logo-animation img {
+		right: -140px;
+	}
+
+	.homeTextTop h2 {
+		font-size: 40px;
+	}
+
+	.home-copyright p,
+	.home-copyright ul {
+		padding-top: 8px;
+	}
+
+	.home-copyright {
+		padding: 0 80px !important;
+	}
+
+	.homeTextTop h2 {
+		width: 90%;
+	}
+
+	.word {
+		top: 300px !important;
+	}
+
+	.link-wrapper .modal-body {
+		height: 450px;
+	}
+
+	.services h1 {
+		font-size: 118px;
+		letter-spacing: 62px;
+	}
+
+	.right-logo-animation img {
+		width: 530px;
+	}
+
+	.rightBanner img {
+		right: -152px;
+		top: -168px;
+	}
+
+	.topBanner {
+		height: 80vh;
+	}
+
+	.desktop-home-menu {
+		padding-top: 3vh;
+	}
+
+	#video {
+		height: 80vh !important;
+	}
+
+	@keyframes floating {
+		0% {
+			transform: translateY(10%);
+		}
+
+		50% {
+			transform: translateY(25%);
+		}
+
+		100% {
+			transform: translateY(10%);
+		}
+	}
+
+	@-webkit-keyframes floating {
+		0% {
+			-webkit-transform: translateY(10%);
+		}
+
+		50% {
+			-webkit-transform: translateY(25%);
+		}
+
+		100% {
+			-webkit-transform: translateY(10%);
+		}
+	}
+}
+
+@media only screen and (width:1440px) {
+	.About-us h1 {
+		font-size: 118px;
+		letter-spacing: 36px;
+	}
+
+	.rightBanner img {
+		right: -170px;
+	}
+
+	.list-item {
+		margin-right: 10px;
+	}
+
+	.home-copyright p,
+	.home-copyright ul {
+		padding-bottom: 10px !important;
+	}
+
+	.overlay-member {
+		width: 100%;
+	}
+}
+
+@media screen and (max-height:450px) {
+	.overlay a {
+		font-size: 12px;
+	}
+
+	.overlay .closebtn {
+		font-size: 40px;
+		top: 2px;
+		right: 0;
+	}
+}
+
+input {
+	-webkit-overflow-scrolling: touch;
+}
+
+input>* {
+	-webkit-transform: translateZ(0);
+}
+
+textarea {
+	-webkit-overflow-scrolling: touch;
+}
+
+textarea>* {
+	-webkit-transform: translateZ(0);
+}
+
+@media only screen and (max-width:1200px) {
+	.desktop-main-menu {
+		display: none;
+	}
+}
+
+
+/*life @ medtrix */
+.medtrixLife h1 {
+	font-size: 130px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: 6px;
+	text-align: center;
+	color: #575756;
+	opacity: .1;
+	font-family: Lato;
+}
+
+.border_t {
+	border-top: 2px solid #00000026;
+	width: 73%;
+	margin: auto;
+}
+
+.medtrixLife-content-grid1 {
+	background-image: url(../images/gallery/equality_bg.png);
+	background-size: 100% 100%;
+}
+
+.medtrixLife-grid-one,
+.medtrixLife-grid-three {
+	padding: 5% 10% 5% 13.5%;
+	background-image: url(../images/gallery/slider_bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 55%;
+	margin-right: 37%;
+}
+
+.medtrixLife-subhead h3 {
+	font-size: 18px;
+	color: #2f2f33;
+	font-weight: 700;
+	border-bottom: 1px solid #8080803b;
+	padding-bottom: 7px;
+}
+
+.medtrixLife-subhead {
+	position: relative;
+}
+
+.medtrixLife-subhead h3::after {
+	content: "";
+	position: absolute;
+	left: 0px;
+	right: 0;
+	height: .5em;
+	border-top: 2px solid #be1e2d;
+	z-index: 1;
+	width: 50px;
+	top: 28px;
+}
+
+.medtrixLife-grids h1,
+.medtrixLife-grid-one-mbl h1 {
+	font-size: 30px;
+	color: #E10B14;
+	line-height: 26px;
+}
+
+.medtrixLife-grids h4,
+.medtrixLife-grid-one-mbl h4 {
+	font-size: 16px;
+	color: #AE0B1A;
+	line-height: 18px;
+	padding-bottom: 10px;
+}
+
+.medtrixLife-content-grid2 {
+	background-image: url(../images/gallery/audacity_bg.png);
+	background-size: 100% 100%;
+}
+
+.medtrixLife-grid-two {
+	padding: 5% 13% 5% 12%;
+	background-image: url(../images/gallery/audacity_content_bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 55%;
+	margin-left: 45%;
+}
+
+.medtrixLife-content-grid3 {
+	background-image: url(../images/gallery/originality_bg.png);
+	background-size: 100% auto;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.medtrixLife-content-grid4 {
+	background-image: url(../images/gallery/simplicity_bg.png);
+	background-size: 100% 100%;
+}
+
+.medtrix-gallery,
+.med-openings,
+.med-new-openings {
+	padding: 30px 0px;
+	background-color: #F8F8F8;
+}
+
+.med-new-openings1 {
+	padding-bottom: 30px;
+	background-color: #F8F8F8;
+}
+
+.subheading {
+	z-index: 2;
+	position: relative;
+	background-color: #F8F8F8;
+	top: -40px;
+	padding: 22px;
+	-webkit-box-shadow: 0 3px 7px -2px #635e6314;
+	-moz-box-shadow: 0 3px 7px -2px #635e6314;
+	box-shadow: 0 3px 7px -2px #635e6314;
+}
+
+.gallery-item h2 {
+	font-size: 22px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: normal;
+	text-align: center;
+	color: #E10B14;
+	padding: 10px 0;
+}
+
+.gallery-item a:hover {
+	text-decoration: underline;
+	color: #E10B14 !important;
+}
+
+.gallerybtn,
+.applybtn {
+	background: #ec1c24;
+	border: none;
+	border-radius: 4px;
+	font-size: 13px;
+	padding: 5px 40px;
+	color: #fff;
+	float: right;
+	font-family: "museo-sans-900";
+}
+
+.apply {
+	margin: 24px 0px 0 0;
+}
+
+.gallerybtn a,
+.applybtn a {
+	color: #fff;
+}
+
+.apply a {
+	cursor: pointer;
+}
+
+.galleryload {
+	text-align: center;
+	margin: 18px 0;
+}
+
+.gallery-content .news-card-text {
+	font-size: 16px;
+	color: #585858;
+	line-height: 19px;
+	font-family: "museo-sans-rounded-500";
+}
+
+.gallery-btn,
+.readmorebtn {
+	color: #02226D !important;
+	text-decoration: underline !important;
+	font-size: 16px;
+}
+
+.gallery-item .card-body {
+	-webkit-box-shadow: 0 3px 7px -2px #635e634f;
+	-moz-box-shadow: 0 3px 7px -2px #635e634f;
+	box-shadow: 0 3px 7px -2px #635e634f;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+	margin: 0 !important;
+	width: 8px !important;
+	height: 8px !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+	background: #ec1c24 !important;
+}
+
+.opportunity-content h3 {
+	font-size: 40px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: normal;
+	color: #E10B14;
+	padding: 10px 0;
+}
+
+.opportunity-content,
+.med-opportunity,
+.gallery-item {
+	margin: 40px 0px;
+}
+
+.open-grid {
+	-webkit-box-shadow: 0 3px 7px -2px #635e634f;
+	-moz-box-shadow: 0 3px 7px -2px #635e634f;
+	box-shadow: 0 3px 7px -2px #635e634f;
+	padding: 20px;
+	margin: 30px 0 30px 0;
+	background-color: #ffffff;
+}
+
+.open-grid h4 {
+	font-size: 18px;
+	line-height: 14px;
+	color: #000;
+	padding-bottom: 10px;
+}
+
+.open-grid p {
+	font-size: 14px;
+	line-height: 18px;
+	color: #585858;
+	font-family: "museo-sans-rounded-500";
+	padding-top: 2px;
+}
+
+.open-grid span {
+	color: #000;
+}
+
+.dropbtn {
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content,
+.dropdown-L2 {
+	display: none;
+	position: absolute;
+	background-color: #ffff;
+	min-width: 230px;
+	box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+	z-index: 10000;
+	margin-top: 10px;
+	border-radius: 7px 7px 7px 7px;
+	text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 10px 16px;
+	text-decoration: none;
+	display: block;
+	border-bottom: 1.5px solid rgba(234, 234, 234, 1);
+}
+
+.dropdown-content a:last-child {
+	border-bottom: none;
+}
+
+.dropdown-content>div {
+	border-bottom: 1.5px solid rgba(234, 234, 234, 1);
+}
+
+.mbl-dropdown .mblicon,
+.deskicon {
+	font-size: 26px;
+	/* vertical-align: super; */
+}
+
+/* .dropdown-content a:hover {background-color: #ec1c24;color:#ffffff} */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+	-ms-flex: 25%;
+	/* IE10 */
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+}
+.column_video {
+	-ms-flex: 25%;
+	/* IE10 */
+	flex: 25%;
+	/*max-width: 25%;*/
+	padding: 0 4px;
+}
+
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+/*career page*/
+
+.overlaycarrer {
+	/* background-color: #313131; */
+	height: 340px;
+	width: 100%;
+	border: 0;
+	/* background-image: url(../images/gallery/career_bg.png); */
+	position: absolute;
+	z-index: 1;
+}
+
+.careerbtn {
+	position: relative;
+	overflow: hidden;
+	background-color: #be1e2d;
+	color: white;
+	font-size: 14px;
+	padding: 8px 12px;
+}
+
+.resumebtn {
+	position: absolute;
+	font-size: 50px;
+	opacity: 0;
+	right: 0;
+	top: 0;
+}
+
+.uploadresume .labeltext {
+	color: #575756;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.uploadresume {
+	margin-bottom: 30px;
+}
+
+/* .modal-outer {
+    margin: 1.75rem auto;
+} */
+
+.careerhead {
+	height: 400px;
+	width: 100%;
+	border: 0;
+	position: absolute;
+	z-index: 1;
+	color: #fff;
+}
+
+#career-session {
+	padding-bottom: 250px;
+}
+
+/* .med-new-openings .owl-nav{
+	top: -58px;
+} */
+.job-details h1 {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.modal-outer .modal-content {
+	background-color: transparent;
+	border: 0px;
+}
+
+.medlifecontent {
+	margin-top: -40px;
+}
+
+.medlifecontent p {
+	font-family: "museo-sans-rounded-500";
+	line-height: 20px;
+}
+
+/*testimonials starts*/
+
+#testimonials-container {
+	max-width: 1140px !important;
+	position: relative;
+	top: -100px;
+}
+
+.testimonials-headText {
+	position: relative;
+	top: -45px;
+	max-width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../images/gallery/testimonials_top_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: bottom left;
+	background-color: #f8f8f8;
+
+}
+
+.medtrixTestimonials-session {
+	padding: 0;
+}
+
+.medtrixTestimonials h1 {
+	font-size: 130px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: 6px;
+	text-align: center;
+	color: #575756;
+	opacity: .1;
+	font-family: Lato;
+}
+
+.medtrixTesti_head_para {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding: 6vh 0 20vh 0;
+}
+
+.medtrixTesti_head_para h4 {
+	font-family: museo-sans-300;
+	font-size: 21px;
+	color: #000000;
+}
+
+.accordion {
+	margin-bottom: 10px;
+}
+
+.accordion .card {
+	margin-bottom: 10px;
+	border-radius: 0;
+}
+
+.accordion .card h2 {
+	font-family: MuseoSans;
+	font-size: 18px;
+	color: #000000;
+	background: url(../images/gallery/chevron-up-solid.png) no-repeat calc(100% - 20px) center;
+	background-size: 18px;
+	cursor: pointer;
+	border: 1px solid #000 !important;
+}
+
+.accordion .card h2 button {
+	width: 255px;
+	text-align: left;
+	padding: 20px 15px;
+	margin-right: 15px;
+	border: none;
+	background-color: #BD1E2D;
+	color: #FFFFFF;
+}
+
+.accordion .card h2.collapsed {
+	color: #ADADAD;
+	background-image: url(../images/gallery/chevron-down-solid.png);
+}
+
+.accordion .card h2.collapsed>button {
+	background-color: #EFEFEF;
+	color: #000000;
+}
+
+.accordion .card-body {
+	font-size: 12px;
+	padding: 0;
+	background: linear-gradient(180deg, #f6f6f6 50%, #bd1e2d 50%);
+}
+
+.accordion .card-body .inner_box {
+	padding: 30px;
+}
+
+.accordion .card-body .inner_box img {
+	padding: 20px 30px;
+}
+
+.accordion .card-body .inner_box .btmBorder {
+	width: 70px;
+	height: 5px;
+	background-color: #bd1e2d;
+}
+
+.testi_left_box {
+	padding: 0 30px;
+}
+
+.testi_left_box p {
+	font-family: museo-sans-300;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.testi_right_box {
+	background-color: #DEDDDD;
+	background-image: url(../images/gallery/mask_group_bg.png);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: 90px auto;
+	padding: 20px 30px 20px 50px;
+}
+
+.testi_right_innerbox {
+	padding: 30px 20px 60px 50px;
+}
+
+.testi_right_innerbox h1 {
+	font-family: museo-sans-700;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.testi_right_innerbox h1 span {
+	font-family: museo-sans-700;
+	font-size: 22px;
+	color: #EB1C24;
+}
+
+.testi_right_botBorder {
+	width: 50px;
+	height: 5px;
+	background-color: #BD1E2D;
+	margin-bottom: 15px;
+}
+
+.testi_right_innerbox h3 {
+	font-family: MuseoSans;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 20px 0 10px 0;
+}
+
+.testi_right_innerbox p {
+	font-family: museo-sans-300;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.testi_right_innerbox ol {
+	padding: 30px 0 0 12px;
+}
+
+.testi_right_innerbox ul li {
+	font-family: MuseoSans;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.testi_right_innerbox ul li::marker {
+	color: #bd1e2d;
+}
+
+.testi_comments_boxBtm {
+	padding: 100px 10%;
+	color: white;
+	text-align: center;
+}
+
+#testi_comments_boxBtm_img {
+	width: 80px;
+	padding: 40px 0;
+}
+
+.testi_comments_boxBtm .box {
+	padding: 12px;
+	border: 1px solid #FFFFFF;
+	margin-bottom: 20px;
+}
+
+.testi_comments_boxBtm .box h3 {
+	font-family: museo-sans-700;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.testi_comments_boxBtm .box h3 span {
+	font-family: "museo-sans-100";
+}
+
+.testi_collapse_arrow {
+	text-align: center;
+}
+
+.testi_collapse_arrow img {
+	width: 100px;
+	cursor: pointer;
+}
+
+.testimonials_btm_bg {
+	padding: 0;
+}
+
+.testimonials_btm_bg img {
+	width: 100%;
+}
+
+
+
+
+
+/*testimonials ends*/
+/*responsive code*/
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) {
+	.medtrixLife h1 {
+		font-size: 120px;
+	}
+
+	.medtrixLife-grid-one,
+	.medtrixLife-grid-three {
+		padding: 3% 10% 3% 5%;
+	}
+
+	.medtrixLife-grid-two,
+	.medtrixLife-grid-four {
+		padding: 3% 4% 3% 10%;
+	}
+
+	.open-grid {
+		min-height: 246px;
+	}
+
+	.careerbtn {
+		padding: 8px 10px;
+		font-size: 12px;
+	}
+
+	.contactRightSide img {
+		margin-top: 80px;
+	}
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+
+	.medtrixLife h1,
+	.medtrixTestimonials h1 {
+		font-size: 42px;
+		letter-spacing: 0.5px;
+	}
+
+	.medtrixLife-grid-one-mbl {
+		padding: 20px;
+		background-color: #F5F5F5;
+		border-bottom: 1px solid #000000;
+	}
+
+	.open-grid {
+		margin-bottom: 20px;
+		min-height: 230px;
+	}
+
+	.modal-outer .popup-inner {
+		width: 98%;
+	}
+
+	.medlifecontent {
+		margin-top: -20px;
+	}
+
+	.subheading {
+		top: -20px;
+		padding: 10px;
+	}
+
+	.opportunity-content h3 {
+		font-size: 22px;
+	}
+
+	.testimonials-headText {
+		top: -23px;
+	}
+
+	.medtrixTesti_head_para {
+		padding: 3vh 0;
+	}
+
+	.medtrixTesti_head_para h4 {
+		font-size: 10px;
+	}
+
+	#testimonials-container {
+		top: 0px !important;
+	}
+
+	.accordion .card h2 {
+		font-size: 15px;
+		line-height: 20px;
+		text-align: center;
+		padding: 0 0 18px 0;
+		background: url(../images/gallery/chevron-up-solid.png) no-repeat calc(100% - 50%) bottom;
+		background-size: 15px;
+	}
+
+	.accordion .card h2 button {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px;
+		font-family: museo-sans-700;
+		font-size: 24px;
+		line-height: 28px;
+		padding: 10px;
+	}
+
+	.accordion .card h2.collapsed>button {
+		text-align: center;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.accordion .card-body .inner_box {
+		text-align: center;
+		padding: 15px;
+	}
+
+	.testi_left_box {
+		padding: 0 0 20px 0;
+		text-align: left;
+	}
+
+	.testi_right_box {
+		background-position: top left;
+		background-size: 60px auto;
+		padding: 20px 20px 20px 20px;
+	}
+
+	.testi_right_innerbox {
+		padding: 0px;
+		text-align: left;
+	}
+
+	.pad0 {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.testi_comments_boxBtm {
+		padding: 30px 2%;
+	}
+
+	.testi_comments_boxBtm .box h3 {
+		font-size: 16px;
+	}
+
+	.testi_right_botBorder {
+		margin: auto;
+		position: relative;
+		left: -20px;
+		width: 70px;
+	}
+
+	.testi_right_innerbox h1 {
+		text-align: center;
+	}
+
+    
+}
+
+@media (max-width: 1024px) and (min-width: 320px) {
+	.mbl-dropdown a {
+		/* font-size: 18px !important; */
+		text-align: left !important;
+	}
+
+	.dropdown-content {
+		min-width: 200px;
+		margin: 0px;
+	}
+
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+	.column {
+		-ms-flex: 50%;
+		flex: 50%;
+		max-width: 50%;
+	}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column {
+		/* -ms-flex: 100%;
+	  flex: 100%; */
+		max-width: 100%;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.toggle {
+		bottom: 45%;
+		right: -10%;
+	}
+}
+
+/* New Homepage Bharath */
+.wrapper-home {
+	position: fixed;
+}
+
+.toggle {
+	width: 5vw;
+	position: absolute;
+	bottom: 46%;
+	/* left: 30%; */
+	right: 14%;
+	height: 60px;
+	background: url(https://d218mh3sadleh5.cloudfront.net/Website/Internal/corporate/images/play_new.png);
+	background-repeat: no-repeat;
+	background-size: 45px;
+	cursor: pointer;
+	z-index: 10;
+
+}
+
+.toggle.active {
+	background: url(https://d218mh3sadleh5.cloudfront.net/Website/Internal/corporate/images/HomepageImages/close.png);
+	background-repeat: no-repeat;
+}
+
+#VideoSection {
+	width: 420px;
+	position: fixed;
+	z-index: 0;
+
+	right: 0;
+	/* right: 35px; */
+	transition: 0.7s;
+}
+
+#video {
+	height: 81.5vh;
+	width: 100vw;
+	object-fit: cover;
+	/* border-left:0.1px solid rgb(253, 4, 4,0.2); */
+}
+
+.videoLinks,
+.videoLinks_medEdTech {
+	position: absolute;
+	left: 0;
+	bottom: 2%;
+	display: flex;
+	justify-content: center;
+
+	padding: 0 20px;
+	/* background-color:rgb(143, 142, 142,0.5); */
+	background-image: linear-gradient(to right, rgb(0, 0, 0, 1), transparent);
+	/* background-image: linear-gradient(to right,rgb(0, 0, 0,0.7), rgba(250, 250, 250, 0)); */
+	z-index: 3;
+	cursor: pointer;
+	color: rgb(255, 255, 255);
+	font-size: small;
+}
+
+.videoLinks a {
+	color: white;
+}
+
+.videoLinks_medEdTech a {
+	color: white;
+}
+
+#aR,
+#mR {
+	padding-right: 4%;
+}
+
+#iT,
+#iT_medEdTech {
+	margin-right: 30px;
+}
+
+#aR_medEdTech,
+#Dp_medEdTech {
+	padding-right: 4%;
+}
+
+.hline1 {
+	width: 30px;
+	border-top: 4px solid red;
+	padding-bottom: 4px;
+}
+
+
+.hline2 {
+
+	width: 30px;
+	border-top: 4px solid red;
+	padding-bottom: 4px;
+}
+
+
+@media (min-width:320px) and (max-width:767px) {
+	#VideoSection-new {
+		display: none;
+	}
+
+	.toggle {
+		display: none;
+	}
+
+	.leftBanner .topTxtOne {
+		text-align: left;
+		padding-top: 7vh;
+	}
+	/* .whatsNew {
+		margin:30px 0 0 0;
+	} */
+	.whatsNewLinks a {
+		font-size: 10px !important;
+		padding:5px !important;
+	}
+	.homePageMain {
+		padding-left: 5% !important;
+	}
+	.medtrixLogo a img {
+		width: 32vw !important;
+		padding: 15px 0 0 0;
+	}
+
+	.videoMobileContainer {
+		display: block !important;
+		position: relative;
+		background-color: black;
+	}
+
+}
+
+/* ---------------------------------Active-State new start---------------------------------------------*/
+/* #medEdTech{
+	border-bottom: 2px solid rgba(236, 28, 36, 1);
+	background-color: rgba(236, 28, 36, 0.1);
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+} */
+#newActiveState {
+	border-bottom: 2px solid rgba(236, 28, 36, 1);
+	background-color: rgba(236, 28, 36, 0.1);
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+.dropdown-content a:hover {
+	border-bottom: 2px solid rgba(236, 28, 36, 1);
+	background-color: rgba(236, 28, 36, 0.1);
+}
+
+/* ---------------------------------Active-State new end---------------------------------------------*/
+@media only screen and (min-device-width:768px) and (max-device-width:1023px) {
+	#VideoSection {
+		/* display:none; */
+		width: 33%;
+	}
+
+	#video {
+		height: 73.5vh;
+	}
+
+	.topBanner {
+		height: 73.5vh !important;
+	}
+
+	/* .toggle {
+		width:20vw;	
+	} */
+	/* .whatsNew {
+		margin:30px 0 0 22px;
+	} */
+	#muteButton_homepage {
+		bottom: 19% !important;
+		right: 1%;
+	}
+}
+
+/* About US for 1280px  */
+@media only screen and (width: 1280px) {
+	.contentCont {
+		padding: 7% 10% 5% 5%;
+	}
+
+	.contentImg {
+		padding: 5% 5% 5% 5%;
+		width: 70%;
+	}
+
+	.designCont {
+		padding: 15% 10% 5% 20%;
+	}
+
+	.designImg {
+		padding: 10% 5% 5% 5%;
+		width: 70%;
+	}
+
+	.techImg {
+		padding: 11% 5% 5% 5%;
+		width: 70%;
+	}
+
+	.techCont {
+		padding: 5% 10% 5% 5%;
+	}
+
+	.projectCont {
+		padding: 0% 10% 5% 20%;
+	}
+
+	.projectImg {
+		padding: 5% 5% 5% 5%;
+		width: 70%;
+	}
+
+	.strategicCont {
+		padding: 3% 10% 5% 5%;
+	}
+
+	.strategicImg {
+		padding: 4% 5% 5% 5%;
+		width: 70%;
+	}
+}
+
+/* landscape for mobile */
+@media only screen and (max-height: 450px) {
+	.portrait {
+		display: block;
+	}
+
+	.wrapper-home,
+	.wrapper,
+	#wrapper , .headerHomePage , .wrapper-home-new , .wrapper_New {
+		display: none;
+	}
+	.modal{
+		display: none !important;
+	}
+	.modal-backdrop.fade {
+		opacity: 0 !important;
+	}
+	.portrait h6 {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		text-transform: uppercase;
+		color: #EC1C24;
+	}
+
+	body {
+		overflow: hidden;
+		font-size: 14px;
+		background-color: #fff;
+	}
+}
+
+/* 
+ @media only screen and (min-width: 1025px) and (max-width:1366px) and (orientation: landscape) {
+	.topBanner {
+		height:78.5vh;
+	}
+} */
+
+/* .whatsNewLinks a:hover{
+	color:#EC1C24;
+	} */
+	.whatsNew_MedEdTech .whatsNewLinks_MedEdTech a:hover{
+		color:#EC1C24;
+	}
+	#whatsnew_MedEdTech {
+		display:none;
+	}
+	
+	/* scroll up button */
+	#myBtn {
+		display: block ;
+		position: fixed;
+		bottom: 80px;
+		right: 30px;
+		z-index: 999;
+		font-size: 22px;
+		border: none;
+		outline: none;
+		background-color: #ec1d24;
+		/* opacity: 0.6; */
+		color: white;
+		cursor: pointer;
+		padding: 9px 6px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+	  }
+	  #myBtn:hover {
+		background-color: #ec1d24;
+		opacity: 0.5;
+	  }
+	
+	  .homeTextBottom_medEdTech {
+		  margin-bottom: 20px;
+	  }
+
+
+/* new dropdown  starts*/
+.dropdown-L1 {
+	position: relative;
+}
+
+.dropdown-L2 {
+	top: 0%;
+	left: 100%;
+	margin: 0 1px;
+}
+
+.dropdown-L2-right {
+	left: 0%;
+	left: 100%;
+}
+
+.dropdown-L1:hover>.dropdown-L2 {
+	display: block;
+}
+
+.txtFade {
+	display: none;
+}
+
+/* new dropdown  ends*/
+
+.newsHeader {
+	background: black;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	margin: 2rem 0;
+}
+
+.clients_section {
+	padding: 2rem 0;
+	background-color: #fff;
+}
+
+.clients-container {
+	width: 300px;
+	border: 1px solid #BEBEBE;
+	background-color: #fff;
+	padding: 1rem 4rem;
+	margin: auto;
+	border-radius: 20px;
+}
+
+/* news-grid-starts */
+.parent-news-grid {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	background-color: #D9D9D9;
+}
+
+.news-left-section {
+	grid-area: 1 / 1 / 6 / 6;
+}
+
+.news-right-section {
+	grid-area: 1 / 6 / 6 / 9;
+}
+.news-date-mod{
+	top: 0 !important;
+    left: 3px !important;
+}
+.news-date-mod p{
+	color: #fff;
+	background-color: #000;
+	padding: 10px 0;
+	font-size: 14px;
+}
+.news-date-mod span{
+	background-color: transparent !important;
+	font-size: 20px !important;
+	font-weight: bold ;
+}
+
+.cardVisits{
+	display: flex;
+	gap: 20px;
+}
+.cardVisits ul{
+	margin: 0 !important;
+}
+.cardVisits ul li{
+	padding: 0 10px !important;
+	border-right: 1px solid #BEBEBE;
+}
+
+.news-right-section{
+	padding: 1rem;
+}
+.recent-news-section{
+	padding: 1.3rem;
+	background-color: #fff;
+	margin-bottom: 2rem;
+	box-shadow: 0 2px 6px -3px #635e637a;
+}
+/* .recent-news-section  h5{
+	padding-bottom: 30px;
+} */
+
+.recent-news{
+	display: flex;
+	justify-content: space-between;
+}
+
+.recent-tabs{
+	display: flex;
+    flex-direction: column;
+    gap: 15px;
+	padding: 30px 0;
+	border-bottom: 2px solid #E8E8E8;
+}
+.recent-news .latest-blog-thumb{
+	width: 35%;
+}
+.recent-news .latest-blog-head{
+	width: 60%;
+}
+.section-footer-btn{
+	padding: 30px 0;
+}
+.section-footer-btn a{
+	color: #000;
+}
+.archive-list{
+	padding: 20px 0 0 ;
+}
+.archive-list li{
+	list-style: none;
+}
+.archive-list span{
+	color: #CACACA;
+}
+.parent-news-grid{
+	padding: 0 20px;
+}
+.pagintaion-container-news-container{
+	grid-area: 1 / 1 / 6 / 6;
+	padding: 0 20px;
+}
+.table-pagination-jump-container-news-container{
+	display: none !important;
+}
+.jp-next:hover, .jp-previous:hover{
+	background-color: transparent !important;
+}
+#news-container li{
+	list-style: none;
+}
+#news-container{
+	min-height: 0 !important;
+}
+/* a:not([href]):hover {
+    color: #fff !important;
+} */
+
+@media screen and (max-width: 800px) {
+	.parent-news-grid{
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.news-left-section {
+		grid-area: 1 / 1 / 2 / 9;
+	}
+	.news-right-section {
+		grid-area: 2 / 1 / 6 / 9;
+	}
+	/* .news .card img{
+		height: 200px;
+	} */
+	
+}
+
+.header, .headerHomePage {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: #fff;
+	margin: 0;
+	padding: 10px;
+}
+/* .footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 999;
+} */
+/* news-grid-ends */
+
+.contentText_mobile {
+        position: absolute;
+        padding: 2vh;
+		z-index:100;
+    }
+    .ocHeading_mobile h1{
+		font-weight: 900;
+		color:#ffff;
+        font-size: 1rem;
+    }
+    .knowMoreBtn_mobile {
+        border: 1px solid #fff;
+        padding: 0px 1.5px 1.5px 1.5px;
+        width: 65px;
+        opacity: 1;
+        border-radius: 2px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .knowMoreBtn_mobile a {
+        font-size: 8px;
+        color: #fff;
+    }
+	
