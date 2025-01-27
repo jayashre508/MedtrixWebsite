@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <>
-    <div className='bg-black h-[6rem] sticky z-10 top-0 m-0 p-4 flex justify-between items-center w-full'>
+    <div className='bg-white h-[6rem] sticky z-10 top-0 m-0 p-4 flex justify-between items-center w-full'>
         <div className='w-1/5'>
                 <a href="index.html"><img className='w-3/5' src={HeaderLogo} alt="medtrix logo"></img></a>
             </div>
