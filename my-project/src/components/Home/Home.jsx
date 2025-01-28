@@ -53,19 +53,19 @@ import { useState } from 'react'
         <div className="hp-horizontalLine h-[1px] bg-gray-500"></div>
         <div className="hp-productButton flex items-center justify-center h-[33px] rounded-full border-[0.5px] border-gray-500">
           <p className="text-white px-4 py-1">
-            <a href="case-player.html">Case Player</a>
+            <a href="">Case Player</a>
           </p>
         </div>
         <div className="hp-horizontalLine h-[1px] bg-gray-500 "></div>
         <div className="hp-productButton flex items-center justify-center h-[33px] rounded-full border-[0.5px] border-gray-500">
           <p className="text-white px-4 py-1">
-            <a href="immersive_technology.html">Immersive Solutions</a>
+            <a href="">Immersive Solutions</a>
           </p>
         </div>
         <div className="hp-horizontalLine h-[1px] bg-gray-500"></div>
         <div className="hp-productButton flex items-center justify-center h-[33px] rounded-full border-[0.5px] border-gray-500">
           <p className="text-white px-4 py-1">
-            <a href="digital_products.html">Digital Partnership</a>
+            <a href="">Digital Partnership</a>
           </p>
         </div>
       </div>
