@@ -6,7 +6,7 @@ const Header = () => {
     <>
     <div className='bg-black h-[6rem] sticky z-10 top-0 m-0 p-4 flex justify-between items-center w-full'>
         <div className='w-1/5'>
-                <a href=""><img className='w-3/5' src={HeaderLogo} alt="medtrix logo"></img></a>
+                <a href=""><img className='w-3/5 max-md:w-[50vw]' src={HeaderLogo} alt="medtrix logo"></img></a>
             </div>
             
             <div className="text-white w-[57%] pl-[17%]">

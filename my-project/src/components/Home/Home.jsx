@@ -24,7 +24,7 @@ import { useState } from 'react'
         const [activeTeam, setActiveTeam] = useState('projectTeam'); // Default active team
 
   const handleTeamClick = (teamName) => {
-    setActiveTeam(teamName); // Set the active team on click
+    setActiveTeam(teamName); 
   };
   return (
     <>
