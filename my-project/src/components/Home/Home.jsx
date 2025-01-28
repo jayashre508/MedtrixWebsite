@@ -221,8 +221,8 @@ import { useState } from 'react'
           <img src={hparrow} alt="MedTrix Healthcare Pvt Ltd" className="opacity-0 transition-opacity duration-300" style={{ opacity: activeTeam === 'techTeam' ? 1 : 0 }} />
         </div>
         <div className="t-names flex items-center gap-2 cursor-pointer" onClick={() => handleTeamClick('projectTeam')}>
-          <p className={`text-gray-300 text-lg font-normal uppercase hover:font-bold hover:text-[2rem] hover:text-white style={{  fontSize: activeTeam === 'projectTeam' ? '2rem' : '18px' , 
- fontWeight: activeTeam === 'projectTeam' ? 'bold' : 'normal',}} ${activeTeam === 'projectTeam' ? 'text-white text-2xl font-bold' : ''}`}>PROJECT CENTER</p>
+          <p className="text-gray-300 text-lg font-normal uppercase hover:text-[2rem] hover:font-bold  hover:text-white" style={{  fontSize: activeTeam === 'projectTeam' ? '2rem' : '18px' , 
+ fontWeight: activeTeam === 'projectTeam' ? 'bold' : 'normal',}}>PROJECT CENTER</p>
           <img src={hparrow} alt="MedTrix Healthcare Pvt Ltd" className="opacity-0 transition-opacity duration-300" style={{ opacity: activeTeam === 'projectTeam' ? 1 : 0 }} />
         </div>
         <div className="t-names flex items-center gap-2 cursor-pointer" onClick={() => handleTeamClick('strategyTeam')}>
